@@ -4,7 +4,13 @@ export {
     initIngredients
 } from './burgerBuilder';
 export {
-    purchaseBurgerStart,
-    purchaseBurger
-
-} from  './order';
+    purchaseBurger,
+    purchaseInit,
+    fetchOrders
+} from './order';
+export {
+    auth,
+    logout,
+    setAuthRedirectPath,
+    authCheckState
+} from './auth';
